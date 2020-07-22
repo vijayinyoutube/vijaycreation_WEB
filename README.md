@@ -2,6 +2,8 @@
 
 A simple web template built using React
 
+[![BUILD](https://img.shields.io/badge/Build-OK-<COLOR>.svg)](https://github.com/vijayinyoutube/vijaycreation_WEB)  [![apache license](https://img.shields.io/badge/License-apache-blue.svg)](https://github.com/vijayinyoutube/vijaycreation_WEB) [![vijaycreations](https://img.shields.io/website-up-vijaycreations-green-red/http/cv.lbesson.qc.to.svg)](https://www.youtube.com/channel/UCBC_Z7jla1GSITcqLKAtPxQ)
+
 ## App
 <img src="https://user-images.githubusercontent.com/58719230/88199145-1afef800-cc62-11ea-8fe2-43719f516aeb.png">
 
