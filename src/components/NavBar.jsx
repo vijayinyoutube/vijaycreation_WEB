@@ -28,11 +28,19 @@ const button = {
   // width: 95,
   borderRadius: 7,
 };
+
+const button1 = {
+  background: "#1c3def",
+  height: 45,
+
+  // width: 95,
+  borderRadius: 7,
+};
 export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-light bg-default mx-5 my-3 justify-content-around">
+        <nav className="navbar navbar-expand-sm navbar-light bg-default mx-4 my-3 justify-content-around">
           <a
             style={VijayCreations}
             class="navbar-brand"
@@ -40,22 +48,35 @@ export class Navbar extends Component {
           >
             VijayCreations
           </a>
-          <span class="d-flex justify-content-around">
-            <a style={navBarContent} className="navbar-brand mr-4" href="#">
-              Approach
-            </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <span className="d-flex justify-content-around ">
+            <span
+              class="collapse navbar-collapse justify-content-around "
+              id="collapsibleNavbar"
+            >
+              <a style={navBarContent} className="navbar-brand mr-4" href="#">
+                Approach
+              </a>
 
-            <a style={navBarContent} class="navbar-brand mx-4 " href="#">
-              Services
-            </a>
+              <a style={navBarContent} class="navbar-brand mx-4 " href="#">
+                Services
+              </a>
 
-            <a style={navBarContent} class="navbar-brand mx-4" href="#">
-              Carrer
-            </a>
+              <a style={navBarContent} class="navbar-brand mx-4" href="#">
+                Carrer
+              </a>
 
-            <a style={navBarContent} class="navbar-brand mx-4" href="#">
-              Contact
-            </a>
+              <a style={navBarContent} class="navbar-brand mx-4" href="#">
+                Contact
+              </a>
+            </span>
           </span>
           <button style={button} className="btn btn-primary">
             <span style={signUp}>Sign Up</span>
