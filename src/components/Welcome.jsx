@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import website from "./website.png";
+import website from "./images/website.png";
 import { FaArrowRight } from "react-icons/fa";
 
 const vijaycreations = {
@@ -61,7 +61,7 @@ const image = {
 class Welcome extends Component {
   render() {
     return (
-      <div className="mx-5 my-5 justify-content-around container">
+      <div className="mx-5 my-5 justify-content-around">
         <div className="mx-5 row ">
           <div style={welcome} className="mx-4 my-5">
             <span style={welcome}>
