@@ -7,6 +7,12 @@ A simple web template built using React
 ## App
 <img src="https://user-images.githubusercontent.com/58719230/88199145-1afef800-cc62-11ea-8fe2-43719f516aeb.png">
 
+<img src="https://user-images.githubusercontent.com/58719230/88271157-65c95000-ccf4-11ea-8792-be6a16ffc155.png">
+
+
+
+
+
 ## License
 ```
    Copyright [2020] [Vijay R]
