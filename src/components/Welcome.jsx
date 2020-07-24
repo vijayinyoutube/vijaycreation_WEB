@@ -63,6 +63,7 @@ class Welcome extends Component {
     return (
       <div className="mx-5 my-5 justify-content-around">
         <div className="mx-5 row ">
+       
           <div style={welcome} className="mx-4 my-5">
             <span style={welcome}>
               Welcome to <span style={vijaycreations}>VijayCreations.,</span>
@@ -87,6 +88,7 @@ class Welcome extends Component {
           <div style={image} className="col">
             <img src={website} alt="website" width="650" height="440"></img>
           </div>
+       
         </div>
       </div>
     );
