@@ -11,7 +11,7 @@ A simple web template built using React
 
 
 
-## License
+## 📑 License
 ```
    Copyright [2020] [Vijay R]
 
