@@ -1,21 +1,7 @@
 import React, { Component } from "react";
 import customer from "./images/customer.png";
-
-
-
-const vijaycreations = {
-    //background: "#eef6fc",
-    color: "#1c3def",
-    fontWeight: "normal",
-    fontFamily: "MV Boli",
-    fontSize: 40,
-  };
-  const welcomedesc = {
-    color: "#314c79",
-    fontWeight: "normal",
-    fontFamily: "Gabriola",
-    fontSize: 30,
-  };
+import { vijaycreations } from "./styles/Feature4.tsx";
+import { welcomedesc } from "./styles/Feature4.tsx";
 
 class Feature4 extends Component {
   render() {
@@ -35,9 +21,15 @@ class Feature4 extends Component {
 
             <div className="col-sm my-5 mx-lg-5">
               <div class="col my-5">
-                <div class="row-sm my-5" style={vijaycreations}>vijaycreations</div>
-                <div class="row-sm" style={welcomedesc}>" I've never seen such a flexible and elegant design.</div>
-                <div class="row-sm" style={welcomedesc}>Can't wait to use it again in my next project! "</div>
+                <div class="row-sm my-5" style={vijaycreations}>
+                  vijaycreations
+                </div>
+                <div class="row-sm" style={welcomedesc}>
+                  " I've never seen such a flexible and elegant design.
+                </div>
+                <div class="row-sm" style={welcomedesc}>
+                  Can't wait to use it again in my next project! "
+                </div>
               </div>
             </div>
           </div>

@@ -1,38 +1,9 @@
 import React, { Component } from "react";
-
 import { IoIosPeople } from "react-icons/io";
-
-const vijaycreations = {
-  //background: "#eef6fc",
-  color: "#1c3def",
-  fontWeight: "normal",
-  fontFamily: "arial",
-  fontSize: 40,
-};
-
-const iconsStyle = {
-  //background: "#eef6fc",
-  color: "#1c3def",
-  fontSize: 70,
-};
-
-const welcome = {
-  //color: "#1c3def",
-  fontWeight: "normal",
-  fontFamily: "Nirmala UI",
-  fontSize: 40,
-  top: 35,
-};
-const welcomedesc = {
-  color: "#314c79",
-  fontWeight: "normal",
-  fontFamily: "Nirmala UI",
-  fontSize: 20,
-};
-
-const backgroundStyle = {
-  background: "#eef6fc",
-};
+import { vijaycreations } from "./styles/Feature3.tsx";
+import { iconsStyle } from "./styles/Feature3.tsx";
+import { welcome } from "./styles/Feature3.tsx";
+import { welcomedesc } from "./styles/Feature3.tsx";
 
 class Feature3 extends Component {
   render() {

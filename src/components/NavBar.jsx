@@ -1,41 +1,9 @@
 import React, { Component } from "react";
+import { VijayCreations } from "./styles/NavBarStyle.tsx";
+import { navBarContent } from "./styles/NavBarStyle.tsx";
+import { signUp } from "./styles/NavBarStyle.tsx";
+import { button } from "./styles/NavBarStyle.tsx";
 
-const VijayCreations = {
-  color: "#1c3def",
-  fontWeight: "bold",
-  fontFamily: "Nirmala UI",
-  fontSize: 30,
-};
-
-const navBarContent = {
-  color: "#314c79",
-  fontWeight: "normal",
-  fontFamily: "arial",
-  fontSize: 17.5,
-  marginleft: 25,
-};
-
-const signUp = {
-  color: "white",
-  fontWeight: "normal",
-  fontFamily: "arial",
-  fontSize: 18,
-};
-
-const button = {
-  background: "#1c3def",
-  height: 45,
-  // width: 95,
-  borderRadius: 7,
-};
-
-const button1 = {
-  background: "#1c3def",
-  height: 45,
-
-  // width: 95,
-  borderRadius: 7,
-};
 export class Navbar extends Component {
   render() {
     return (
@@ -82,7 +50,6 @@ export class Navbar extends Component {
             <span style={signUp}>Sign Up</span>
           </button>
         </nav>
-        
       </div>
     );
   }
