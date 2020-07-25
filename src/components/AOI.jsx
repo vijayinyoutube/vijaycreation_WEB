@@ -2,25 +2,9 @@ import React, { Component } from "react";
 import { AiOutlineDeploymentUnit } from "react-icons/ai";
 import { IoIosApps } from "react-icons/io";
 import { FaReact } from "react-icons/fa";
-const data1 = {
-  // color: "#314c79",
-  fontWeight: "normal",
-
-  fontFamily: "Nirmala UI",
-  fontSize: 21,
-};
-const datades = {
-    color: "#314c79",   
-  fontWeight: "normal",
-  fontFamily: "Nirmala UI",
-
-  fontSize: 17,
-};
-
-const iconsStyle = {
-  color: "#1c3def",
-  fontSize: 45,
-};
+import { data1 } from "./styles/AOIStyles.tsx";
+import { datades } from "./styles/AOIStyles.tsx";
+import { iconsStyle } from "./styles/AOIStyles.tsx";
 
 class AOI extends Component {
   render() {
@@ -29,7 +13,10 @@ class AOI extends Component {
         <div className="row mx-5">
           <div className="col mx-4">
             <div>
-              <AiOutlineDeploymentUnit style={iconsStyle} className="mx-5 my-3"></AiOutlineDeploymentUnit>
+              <AiOutlineDeploymentUnit
+                style={iconsStyle}
+                className="mx-5 my-3"
+              ></AiOutlineDeploymentUnit>
             </div>
             <span style={data1} className="mx-5">
               Develop from scratch
@@ -54,7 +41,7 @@ class AOI extends Component {
             </span>
           </div>
           <div className="col mx-4">
-          <div>
+            <div>
               <FaReact style={iconsStyle} className="mx-5 my-3"></FaReact>
             </div>
             <span style={data1} className="mx-5">
@@ -67,7 +54,7 @@ class AOI extends Component {
             </span>
           </div>
         </div>
-        <hr className="my-5 mx-5" ></hr>
+        <hr className="my-5 mx-5"></hr>
       </div>
     );
   }

@@ -1,42 +1,11 @@
 import React, { Component } from "react";
-
 import { BsCheckCircle } from "react-icons/bs";
 import mobileapp from "./images/mobileapp2.png";
-
-const vijaycreations = {
-  color: "#1c3def",
-  fontWeight: "normal",
-  fontFamily: "arial",
-  fontSize: 40,
-};
-
-const welcome = {
-  //color: "#1c3def",
-  fontWeight: "normal",
-  fontFamily: "Nirmala UI",
-  fontSize: 40,
-  top: 35,
-};
-
-const welcomedesc = {
-  color: "#314c79",
-  fontWeight: "normal",
-  fontFamily: "Nirmala UI",
-  fontSize: 20,
-};
-
-const iconsStyle = {
-  color: "#1c3def",
-  fontSize: 23,
-};
-
-const mobiledesc = {
-  //  color: "#1c3def",
-  color: "#314c79",
-  fontWeight: "normal",
-  fontFamily: "arial",
-  fontSize: 18,
-};
+import { vijaycreations } from "./styles/Feature1.tsx";
+import { welcome } from "./styles/Feature1.tsx";
+import { welcomedesc } from "./styles/Feature1.tsx";
+import { iconsStyle } from "./styles/Feature1.tsx";
+import { mobiledesc } from "./styles/Feature1.tsx";
 
 class Feature1 extends Component {
   render() {

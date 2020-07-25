@@ -2,49 +2,12 @@ import React, { Component } from "react";
 import { AiOutlineLineChart } from "react-icons/ai";
 import { BsCodeSlash } from "react-icons/bs";
 import mobileapp from "./images/website2.png";
-
-const vijaycreations = {
-  color: "#1c3def",
-  fontWeight: "normal",
-  fontFamily: "arial",
-  fontSize: 40,
-};
-
-const welcome = {
-  //color: "#1c3def",
-  fontWeight: "normal",
-  fontFamily: "Nirmala UI",
-  fontSize: 40,
-  top: 35,
-};
-
-const welcomedesc = {
-  color: "#314c79",
-  fontWeight: "normal",
-  fontFamily: "Nirmala UI",
-  fontSize: 20,
-};
-
-const iconsStyle = {
-  color: "#1c3def",
-  fontSize: 35,
-};
-
-const mobiledesc = {
-  //  color: "#1c3def",
-  color: "#314c79",
-  fontWeight: "normal",
-  fontFamily: "arial",
-  fontSize: 18,
-};
-
-const data1 = {
-  // color: "#314c79",
-  fontWeight: "normal",
-
-  fontFamily: "Nirmala UI",
-  fontSize: 23,
-};
+import { vijaycreations } from "./styles/Feature2.tsx";
+import { welcome } from "./styles/Feature2.tsx";
+import { welcomedesc } from "./styles/Feature2.tsx";
+import { iconsStyle } from "./styles/Feature2.tsx";
+import { mobiledesc } from "./styles/Feature2.tsx";
+import { data1 } from "./styles/Feature2.tsx";
 
 class Feature2 extends Component {
   render() {
@@ -74,10 +37,7 @@ class Feature2 extends Component {
               </span>
             </div>
             <div className="mx-5 mt-5 row">
-              <BsCodeSlash
-                className="mt-2"
-                style={iconsStyle}
-              ></BsCodeSlash>
+              <BsCodeSlash className="mt-2" style={iconsStyle}></BsCodeSlash>
               <span style={data1} className="mx-4">
                 Modern Solution
                 <div style={mobiledesc}>

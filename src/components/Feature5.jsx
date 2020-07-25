@@ -1,57 +1,9 @@
 import React, { Component } from "react";
-import { AiOutlineLineChart } from "react-icons/ai";
-import { BsCodeSlash } from "react-icons/bs";
 import mobileapp from "./images/focus.png";
 import divider from "./images/divider.png";
-const vijaycreations = {
-  color: "#1c3def",
-  fontWeight: "normal",
-  fontFamily: "arial",
-  fontSize: 40,
-};
-
-const welcome = {
-  //color: "#1c3def",
-  fontWeight: "normal",
-  fontFamily: "Nirmala UI",
-  fontSize: 40,
-  top: 35,
-};
-
-const welcomedesc = {
-  color: "#314c79",
-  fontWeight: "normal",
-  fontFamily: "Nirmala UI",
-  fontSize: 20,
-};
-
-const iconsStyle = {
-  color: "#1c3def",
-  fontSize: 35,
-};
-
-const mobiledesc = {
-  //  color: "#1c3def",
-  color: "#314c79",
-  fontWeight: "normal",
-  fontFamily: "arial",
-  fontSize: 18,
-};
-
-const data1 = {
-  // color: "#314c79",
-  fontWeight: "normal",
-
-  fontFamily: "Nirmala UI",
-  fontSize: 23,
-};
-
-const dividerStyle = {
-  color: "lightgrey",
-  fontSize: 55,
-
-  fontWeight: "normal",
-};
+import { vijaycreations } from "./styles/Feature5.tsx";
+import { welcomedesc } from "./styles/Feature5.tsx";
+import { welcome } from "./styles/Feature5.tsx";
 
 class Feature5 extends Component {
   render() {
