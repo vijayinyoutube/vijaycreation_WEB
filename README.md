@@ -13,6 +13,8 @@ A simple web template built using React
 
 >Part-3: https://youtu.be/94gSlypiiKQ  📺
 
+-------------------
+
 
 <img src="https://user-images.githubusercontent.com/58719230/88392584-dc8c4900-cdd9-11ea-9a00-3f599e3cc6a9.png">
 
