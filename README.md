@@ -5,6 +5,15 @@ A simple web template built using React
 [![BUILD](https://img.shields.io/badge/Build-OK-<COLOR>.svg)](https://github.com/vijayinyoutube/vijaycreation_WEB)  [![apache license](https://img.shields.io/badge/License-apache-blue.svg)](https://github.com/vijayinyoutube/vijaycreation_WEB) [![vijaycreations](https://img.shields.io/website-up-vijaycreations-green-red/http/cv.lbesson.qc.to.svg)](https://www.youtube.com/channel/UCBC_Z7jla1GSITcqLKAtPxQ) [![Status](https://img.shields.io/badge/Status-Beginner-<COLOR>.svg)](https://github.com/vijayinyoutube/vijaycreation_WEB)
 
 ## 🌐 App
+
+
+>Part-1: https://youtu.be/SS_js3QwpsA  📺
+
+>Part-2: https://youtu.be/7fk9ayhtNr0  📺
+
+>Part-3: https://youtu.be/94gSlypiiKQ  📺
+
+
 <img src="https://user-images.githubusercontent.com/58719230/88392584-dc8c4900-cdd9-11ea-9a00-3f599e3cc6a9.png">
 
 
