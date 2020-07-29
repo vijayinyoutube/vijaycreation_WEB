@@ -6,6 +6,7 @@ A simple web template built using React
 
 ## 🌐 App
 
+Check out the video tutorial for this app...
 
 >Part-1: https://youtu.be/SS_js3QwpsA  📺
 
